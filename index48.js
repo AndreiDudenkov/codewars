@@ -7,3 +7,6 @@ function stray(numbers) {
         return num[0]
     }
 }
+
+
+console.log(stray([10,7,10,10,10]))
