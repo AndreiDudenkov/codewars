@@ -8,4 +8,4 @@ function persistence(num) {
     return 1 + persistence(res)
 }
 
-console.log(persistence(39))
+console.log(persistence(999))
