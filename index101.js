@@ -4,6 +4,7 @@ function order(words){
     }
 
     const word = words.split(' ');
+
     word.sort((a, b) => {
         const numA = parseInt(a.match(/\d+/)[0]);
         const numB = parseInt(b.match(/\d+/)[0]);
