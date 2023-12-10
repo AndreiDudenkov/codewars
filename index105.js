@@ -1,4 +1,4 @@
-function expandedForm(num) {
+function expandedForm_(num) {
     const digits = num.toString().split('');
     const expandedFormArray = [];
     for (let i = 0; i < digits.length; i++) {
